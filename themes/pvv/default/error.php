@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <title><?php echo $this->t($this->data['dictTitle']); ?></title>
-<link rel="stylesheet" href="<?php echo SimpleSAML_Module::getModuleURL('themefyrkat/fyrkat.css'); ?>" type="text/css">
+<link rel="stylesheet" href="<?php echo SimpleSAML_Module::getModuleURL('themepvv/style.css'); ?>" type="text/css">
 <?php
 $this->data['header'] = $this->t($this->data['dictTitle']);
 

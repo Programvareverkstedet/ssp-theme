@@ -1,15 +1,17 @@
-# fyrkat theme for SimpleSamlPhp
+# PVV theme for SimpleSamlPhp
+
+This has been forked from [fyrkat/ssp-theme](https://github.com/fyrkat/ssp-theme)
 
 Clone this repo to your modules directory
 
-	git clone https://github.com/fyrkat/ssp-theme.git themefyrkat
+	git clone https://github.com/Programvareverkstedet/ssp-theme themepvv
 
 Make the following changes in your SSP setup:
 
 ## config/config.php
 
 	'module.enable' => [
-		'themefyrkat' => TRUE,
+		'themepvv' => TRUE,
 	],
 
-	'theme.use' => 'themefyrkat:fyrkat',
+	'theme.use' => 'themepvv:pvv',

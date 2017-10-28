@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <title><?php echo $this->t('{login:user_pass_header}'); ?></title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="<?php echo SimpleSAML_Module::getModuleURL('themefyrkat/normalize.css'); ?>" type="text/css">
-<link rel="stylesheet" href="<?php echo SimpleSAML_Module::getModuleURL('themefyrkat/fyrkat.css'); ?>" type="text/css">
-<link rel="stylesheet" href="<?php echo SimpleSAML_Module::getModuleURL('themefyrkat/auth.css'); ?>" type="text/css">
+<link rel="stylesheet" href="<?php echo SimpleSAML_Module::getModuleURL('themepvv/normalize.css'); ?>" type="text/css">
+<link rel="stylesheet" href="<?php echo SimpleSAML_Module::getModuleURL('themepvv/style.css'); ?>" type="text/css">
+<link rel="stylesheet" href="<?php echo SimpleSAML_Module::getModuleURL('themepvv/auth.css'); ?>" type="text/css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <?php
 $this->data['header'] = $this->t('{login:user_pass_header}');
@@ -114,7 +114,7 @@ if (!empty($this->data['links'])) {
 	echo '</ul>';
 }
 ?>
-<script src="<?php echo SimpleSAML_Module::getModuleURL('themefyrkat/scripts.js'); ?>" async></script>
+<script src="<?php echo SimpleSAML_Module::getModuleURL('themepvv/scripts.js'); ?>" async></script>
 	<?php return;
 	
 	$includeLanguageBar = TRUE;
